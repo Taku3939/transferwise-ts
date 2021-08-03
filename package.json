@@ -1,6 +1,6 @@
 {
   "name": "transferwise-ts",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "transferwise api for typescript",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
@@ -11,9 +11,6 @@
   },
   "author": "Takuya Isaki",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://www.npmjs.com/~taku_3939"
-  },
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.10",

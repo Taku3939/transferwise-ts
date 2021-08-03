@@ -36,15 +36,15 @@ export type BusinessProfile = {
 };
 
 export type Response = {
-  PersonalProfile: any;
-  BusinessProfile?: any;
+  PersonalProfile: PersonalDetails;
+  BusinessProfile?: BusinessDetail;
 };
 
-type TransferWiseClient = {
+export type TransferWiseClient = {
   getProfiles(): Promise<Response>;
 };
 
-type TransferWiseConfig = {
+export type TransferWiseConfig = {
   apiKey: string;
   isSandBox: boolean;
 };
