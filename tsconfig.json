@@ -8,7 +8,6 @@
     "declaration": true,
     "pretty": true,
     "newLine": "lf",
-    "outDir": "dist",
-    "rootDir": "./src/"
+    "outDir": "dist"
   }
 }
