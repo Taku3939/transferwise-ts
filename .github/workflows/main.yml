@@ -1,3 +1,5 @@
+name: npm deploy
+
 on:
   push:
     branches: [ master ]
