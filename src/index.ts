@@ -56,7 +56,7 @@ export const CreateClient = (
     baseUrl: "https://api.transferwise.com",
   };
 
-  const url = config.isSandBox ? urls.baseUrl : urls.baseUrlSandbox;
+  const url = !config.isSandBox ? urls.baseUrl : urls.baseUrlSandbox;
   const getProfiles = async (): Promise<Response> => {
     const fetchData = await fetch(url, {
       method: "GET",
