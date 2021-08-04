@@ -51,7 +51,7 @@ export type CreateQuoteResponse = {
   profile: number; //	Personal or business profile id.
   rateExpirationTime: string; //	Time the locked rate will expire.
   providedAmountType: string; //	Whether the quote was creates as "SOURCE" or "TARGET".
-  paymentOptions: PaymentOption; //	List of the methods a user can pay for the transfer. See above for help on choosing the correct one to display.	[PaymentOption]
+  paymentOptions: PaymentOption[]; //	List of the methods a user can pay for the transfer. See above for help on choosing the correct one to display.	[PaymentOption]
 
   status: string; //Current status of this quote, one of: "PENDING", "ACCEPTED", "FUNDED" or "EXPIRED"	Text
   expirationTime: string; // 	The time the quote expires	Timestamp
