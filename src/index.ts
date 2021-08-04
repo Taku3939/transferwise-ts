@@ -27,9 +27,5 @@ export type {
 } from "./GetProfile";
 export type { TransferDeliveryTimeResponse } from "./GetTransferDeliveryTime";
 
-
-export type {
-  useTransferWise,
-  TransferWiseClient,
-  TransferWiseConfig,
-} from "./useTransferWise";
+export { useTransferWise } from "./useTransferWise";
+export type { TransferWiseClient, TransferWiseConfig } from "./useTransferWise";
