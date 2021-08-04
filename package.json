@@ -1,6 +1,6 @@
 {
   "name": "transferwise-ts",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "transferwise api for typescript",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
