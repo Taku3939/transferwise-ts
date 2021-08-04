@@ -10,6 +10,7 @@ import {
 } from "./CreateTransfer";
 import { FundTransferRequest, FundTransferResponse } from "./FundTransfer";
 import { GetProfileResponse } from "./GetProfile";
+import { TransferDeliveryTimeResponse } from "./GetTransferDeliveryTime";
 
 export type TransferWiseClient = {
   getProfiles(): Promise<GetProfileResponse>;
