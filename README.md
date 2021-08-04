@@ -1,3 +1,24 @@
 # TransferWise TS
 
-TransferWiseの型定義をつけたAPIパッケージ
+[Wise Platform API](https://api-docs.transferwise.com/#wise-platform-api)をもとに型定義をつけた API パッケージ
+
+開発中
+
+## Usage
+
+```ts
+import { TransferWiseConfig, useTransferWise } from "transferwise-ts";
+
+const config: TransferWiseConfig = {
+  apiKey: "<ApiKey>",
+  isSandBox: false,
+};
+
+const { getProfiles, createQuote } = useTransferWise(config);
+
+const TestMethod = () => {
+  const profiles = await getProfiles();
+
+  console.log(profiles);
+};
+```
