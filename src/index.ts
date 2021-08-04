@@ -35,7 +35,7 @@ export type TransferWiseConfig = {
   isSandBox: boolean;
 };
 
-export const CreateClient = (
+export const useTransferWise = (
   config: TransferWiseConfig
 ): TransferWiseClient => {
   const urls = {
