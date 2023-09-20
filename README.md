@@ -1,3 +1,5 @@
+## ※warning　: obsoluete
+
 # TransferWise TS
 
 [Wise Platform API](https://api-docs.transferwise.com/#wise-platform-api)をもとに型定義をつけた API パッケージ
