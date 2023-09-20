@@ -2,7 +2,7 @@
 
 [Wise Platform API](https://api-docs.transferwise.com/#wise-platform-api)をもとに型定義をつけた API パッケージ
 
-開発中
+開発中、開発がこれ以上行われることはないです
 
 ## Usage
 
